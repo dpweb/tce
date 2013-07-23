@@ -1,0 +1,16 @@
+{
+  "name": "TweetPop",
+  "description": "Popup Tweets while you work!",
+  "manifest_version" : 2,
+  "version" : "0.1",
+  "icons": { "128": "twitter.jpg", "48": "48.jpg" },
+  "app" : {
+    "background" : {
+       "scripts" : ["main.js"]
+    }
+  },
+  "permissions" : [
+     "notifications",
+     "storage"
+  ]
+}
